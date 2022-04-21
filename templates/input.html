@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form {
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                height: 60px;
+                border-style: dashed;
+                padding: 15px;
+                align-items: center;
+            }
+        </style>
+    </head>
+<body>
+    <h1> Choisir une image :  </h1> 
+    <hr />
+    <form action="/upload-image" method="post" enctype="multipart/form-data">
+        <input  type="file" name="image" >
+        <input type="submit" value="Upload Image" name="submit">
+    </form>
+
+</body>
+</html>
